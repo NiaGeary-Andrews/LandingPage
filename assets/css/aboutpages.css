@@ -1,0 +1,41 @@
+/*
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+.card-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.card {
+	background-color: #5843a3;
+	color: #ffffff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	flex: 1;
+	margin: 10px;
+}
+
+	.card h3 {
+		margin-top: 0;
+	}
+
+	.card .project-info {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+		.card .project-info div {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+		}
+
+			.card .project-info div i {
+				font-size: 1.2em;
+			}
